@@ -1,0 +1,144 @@
+@media screen and (min-width:980px) and (max-width: 1280px){
+
+}
+@media screen and (min-width:768px) and (max-width: 979px){
+	#top_doctor .customNextBtn{
+		position: absolute;
+		right:0%;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+	#top_doctor .customPrevBtn{
+		position: absolute;
+		left: 0%;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+	.slider_info {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    z-index: 3;
+	    width: 100%;
+	}
+	.search_bar{
+		margin-left: 8%;
+	}
+	.doctr_get .doctr_get_cont {
+	    position: absolute;
+	    top: 50%;
+	    left: 35%;
+	    transform: translate(-50%,-50%);
+	    width: 60%;
+	}
+	#testi .customNextBtn{
+		position: absolute;
+		right:-1%;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+	#testi .customPrevBtn{
+		position: absolute;
+		left: -1%;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+}
+@media screen and (min-width:320px) and (max-width: 767px){
+	#section-slider img {
+	    width: 100%;
+	    height: 300px;
+	    display: block;
+	}
+	.slider_info {
+	    position: absolute;
+	    top: 50%;
+	    left: 0;
+	    transform: translateY(-50%);
+	    z-index: 3;
+	    width: 100%;
+	}
+	.slider_info > p {
+    	font-size: 14px;
+    }
+    .search_bar .form_search select {
+	    padding: 6px 38px 6px 26px;
+	    height: 40px;
+	    color: #CECECE;
+	    font-weight: 600;
+	    width: 100%;
+	}
+	.search_bar .form_search button {
+		margin-left: 50%;
+	}
+	#top_doctor .customNextBtn{
+		position: absolute;
+		right:0%;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+	#top_doctor .customPrevBtn{
+		position: absolute;
+		left: 0%;
+		top: 50%;
+		transform: translateY(-50%);
+		cursor: pointer;
+	}
+	.doctr_get img {
+	    width: 100%;
+	    height: 265px;
+	}
+	.doctr_get .doctr_get_cont {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 75%;
+	    transform: translate(0, 0);
+	}
+	.doctr_get .doctr_get_cont h2 {
+	    font-size: 36px;
+	}
+	.doctr_get .doctr_get_cont p {
+	    font-size: 12px;
+	    text-align: left;
+	}
+	footer .footer_menu li {
+	    padding: 0px;
+	}
+	footer .social_icon {
+		float: none;
+	    text-align: center;
+	}
+	#footer_bottom .ul_company{
+		float: none;
+	}
+	#testi .customNextBtn {
+	    position: absolute;
+	    right: 0;
+	    top: 60%;
+	    transform: translateY(-50%);
+	    cursor: pointer;
+	}
+	#testi .customPrevBtn {
+	    position: absolute;
+	    left: 0;
+	    top: 60%;
+	    transform: translateY(-50%);
+	    cursor: pointer;
+	}
+	.search_bar .form_search input {
+	    padding: 6px 10px 6px 10px;
+	    height: 40px;
+	    width: 178px;
+	}
+	.modal_cont .ad_image{
+		width: 100%;
+		height: 450px;
+	}
+}

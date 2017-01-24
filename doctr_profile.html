@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>easyderma | Doctor Profile</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery.range.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link href="css/skins/all.css?v=1.0.2" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-3">
+                <a href="index.html"><img src="images/logo.png" alt="logo" class="img-responsive"></a>
+            </div>
+            <div class="col-xs-9 col-sm-9 col-md-7">
+            	<div class="header_search_bar">
+		            <form action="" class="form_search">
+		                <ul class="list-inline">
+		                    <li>
+		                        <span class="city_name">
+		                            <select name="">
+		                                <option value="">Bangalore</option>
+		                                <option value="">Chennai</option>
+		                                <option value="">Mysore</option>
+		                                <option value="">Hyderabad</option>
+		                            </select>
+		                        </span>
+		                    </li>
+		                    <li>
+		                        <select name="" id="">
+		                            <option value="">Locality</option>
+		                            <option value="">Rajajinagar</option>
+		                            <option value="">Bommanahalli</option>
+		                            <option value="">Marathalli</option>
+		                            <option value="">Agara</option>
+		                        </select>
+		                    </li>
+		                    <li>
+		                        <input type="text" placeholder="Type Doctor, Clinic or Hospital Name">
+		                    </li>
+		                    <li>
+		                         <a class="btn btn-primary btnSearch" href="category.html">Search</a>
+		                    </li>
+		                </ul>
+		            </form>
+		        </div>
+            </div>
+            <div class="col-xs-8 col-sm-6 col-md-2">
+               <div class="pull-right">
+                    <button class="btn btnLogin" data-toggle="modal" data-target="#LoginModal">Login</button>
+                    <button class="btn btnRegister">Register</button>
+               </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="doctor_profile_body">
+	<div class="container doctr_profile_cont">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="cat_profile_pic col-xs-12 col-sm-3 col-md-2">
+					<img src="images/doc5.jpg" alt="doctr_image">
+				</div>
+				<div class="cat_details col-xs-12 col-sm-4 col-md-5">
+					<h2>Dr. Ramesh Shetty</h2>
+					<ul class="list-inline">
+						<li>Dermatologist</li>
+						<li>Exp : 2 yrs</li>
+					</ul>
+					<p>
+						<img src="images/location.png" alt="">
+						<span>3rd block, Rajajinagar, Bangalore</span>
+					</p>
+					<ul class="list-inline">
+						<li><img src="images/rate.png" alt=""></li>
+						<li><span>4/5</span></li>
+						<li><a href="">12 reviews</a></li>
+					</ul>
+				</div>
+					
+				<div class="visit_type col-xs-12 col-sm-5 col-md-5">
+					<div class="single_visit text-center" data-toggle="popover" title="" data-trigger="hover" data-content="Lorem ipsum dolor sit,consectetur adipisicing elit, sed do eiusmod tempor incididunt." data-placement="top">
+						<p>Single visit</p>
+						<p>
+							<i class="fa fa-inr" aria-hidden="true"></i>
+							<span>899</span>
+						</p>
+					</div>
+					<div class="single_visit text-center" data-toggle="popover" title="" data-trigger="hover" data-content="Lorem ipsum dolor sit,consectetur adipisicing elit, sed do eiusmod tempor incididunt." data-placement="top">
+						<p>3 visit</p>
+						<p>
+							<i class="fa fa-inr" aria-hidden="true"></i>
+							<span>999</span>
+						</p>
+					</div>
+					<div class="single_visit text-center" data-toggle="popover" title="" data-trigger="hover" data-content="Lorem ipsum dolor sit,consectetur adipisicing elit, sed do eiusmod tempor incididunt." data-placement="top">
+						<p>5 visit</p>
+						<p>
+							<i class="fa fa-inr" aria-hidden="true"></i>
+							<span>1199</span>
+						</p>
+					</div>
+					<img src="images/favorite_blue.png" alt="" class="fav_mark">
+				</div>
+			</div> <!-- End of 1st main column -->
+		</div>
+	</div>
+	<div class="container martop upload_details_cont">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 upload_details">
+				<ul class="nav nav-tabs myNav_tab">
+				  <li class="active"><a data-toggle="tab" href="#upload">Upload Details</a></li>
+				  <li><a data-toggle="tab" href="#doc_info">Doctor Info</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="upload" class="tab-pane fade in active">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 upload_tab_cont">
+									<h4>SELECT PACKAGE</h4>
+									<div class="visit_type">
+										<div class="single_visit slect-bg text-center">
+											<ul class="list-inline single_pack">
+												<li><input type="radio" class="ckcat" name="abhi" checked="checked"></li>
+												<li>
+													<p>Single visit</p>
+													<p>
+														<i class="fa fa-inr" aria-hidden="true"></i>
+														<span>899</span>
+													</p>
+												</li>
+											</ul>
+										</div>
+										<div class="single_visit text-center">
+											<ul class="list-inline three_pack">
+												<li><input type="radio" class="ckcat" name="abhi"></li>
+												<li>
+													<p>3 visit</p>
+													<p>
+														<i class="fa fa-inr" aria-hidden="true"></i>
+														<span>999</span>
+													</p>
+												</li>
+											</ul>
+										</div>
+										<div class="single_visit text-center">
+											<ul class="list-inline">
+												<li><input type="radio" class="ckcat" name="abhi"></li>
+												<li>
+													<p>5 visit</p>
+													<p>
+														<i class="fa fa-inr" aria-hidden="true"></i>
+														<span>1199</span>
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<h4>WHO IS PATIENT?</h4>
+									<ul class="list-inline">
+										<li>
+											<input type="radio" id="ckmy" name="patient" checked="checked">
+											<label for="ckmy">Myself</label>
+										</li>
+										<li>
+											<input type="radio" id="ckelse" name="patient">
+											<label for="ckelse">Someone else</label>
+										</li>
+									</ul>
+									<hr class="tab_border">
+									<h4>UPLOAD PHOTOS OF THE AFFECTED AREA</h4>
+									<div class="row">
+										<div class="col-xs-12 col-sm-12 col-md-2">
+											<div class="img_cont">
+												<img id="image_upload_preview"  src="images/upload_image_1.png" class="img-responsive">
+
+											</div>
+											<p class="text-center">Upload Pictures</p>
+											<input type='file' id="inputFile" style="visibility: hidden;">
+											
+										</div>
+										<div class="col-xs-12 col-sm-12 col-md-10">
+											<button class="change_pic_btn">Upload</button>
+											<p class="img_size">
+												Upload images from average distance (12 inch away) <br>
+												<span>(Max file upload size 2mb, image files like jpg,png only)</span>
+											</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12 col-sm-12 col-md-2">
+											<div class="img_cont">
+												<img id="image_upload_preview1"  src="images/upload_image_2.png" class="img-responsive">
+
+											</div>
+											<p class="text-center">Upload Pictures</p>
+											<input type='file' id="inputFile1" style="visibility: hidden;">
+											
+										</div>
+										<div class="col-xs-12 col-sm-12 col-md-10">
+											<button class="change_pic_btn1">Upload</button>
+											<p class="img_size">
+												Upload images from average distance (12 inch away) <br>
+												<span>(Max file upload size 2mb, image files like jpg,png only)</span>
+											</p>
+										</div>
+									</div>
+									<hr class="tab_border">
+									<h4>OTHER DETAILS</h4>
+									<p>Do you take any medications ?</p>
+									<ul class="list-inline">
+										<li>
+											<input type="radio" id="op1" name="ques" checked="checked">
+											<label for="op1">Yes</label>
+										</li>
+										<li>
+											<input type="radio" id="op2" name="ques">
+											<label for="op2">No</label>
+										</li>
+										<li>
+											<button class="btn btnUppre">Upload Prescription</button>
+										</li>
+									</ul>
+									
+									<p>Do you have any allergies?</p>
+									<ul class="list-inline">
+										<li>
+											<input type="radio" id="op3" name="ques2" checked="checked">
+											<label for="op3">Yes</label>
+										</li>
+										<li>
+											<input type="radio" id="op4" name="ques2">
+											<label for="op4">No</label>
+										</li>
+									</ul>
+									<textarea name="" id="txtcomment" placeholder="type here...."></textarea>
+									<p>Since when are you having this condition?</p>
+									<ul class="list-inline">
+										<li>
+											<input type="radio" id="d" name="duration" checked="checked">
+											<label for="d">Days</label>
+										</li>
+										<li>
+											<input type="radio" id="w" name="duration">
+											<label for="w">Weeks</label>
+										</li>
+										<li>
+											<input type="radio" id="m" name="duration">
+											<label for="m">Months</label>
+										</li>
+										<li>
+											<input type="radio" id="y" name="duration">
+											<label for="y">Years</label>
+										</li>
+									</ul>
+									<select name="" id="given_time">
+										<option value="">20 days</option>
+										<option value="">20 days</option>
+										<option value="">20 days</option>
+										<option value="">20 days</option>
+										<option value="">20 days</option>
+									</select>
+									<hr class="tab_border">
+									<h4>DESCRIBE IT</h4>
+									<textarea name="" id="txtcomment2" placeholder="type here...."></textarea>
+									<p>(250 characters)</p>
+									<div class="special_cat" style="display: none;">
+										<hr class="tab_border">
+										<h4>SELECT TIME SLOT FOR FIRST VISIT</h4>
+										<div class="scedule_option">
+											<select name="" id="select_hospit">
+												<option value="">Select Hospital</option>
+												<option value="">Apolo Hospital</option>
+												<option value="">Apolo Hospital</option>
+												<option value="">Apolo Hospital</option>
+												<option value="">Apolo Hospital</option>
+											</select>
+											<select name="" id="day">
+												<option value="">Today</option>
+												<option value="">Yesterday</option>
+												<option value="">Tomorrow</option>
+											</select>
+											<select name="" id="section">
+												<option value="">Morning</option>
+												<option value="">Afternoon</option>
+												<option value="">Evening</option>
+												<option value="">Night</option>
+											</select>
+											<img src="images/time_slot.png" class="pull-right" alt="">
+										</div>
+										<div class="scedule_time">
+											<ul class="list-inline">
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor disabled">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor disabled">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor disabled">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor disabled">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor disabled">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+												<li>
+													<div class="time_bor disabled">
+														<span>7:00 AM</span>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<a href="appointment.html" class="btn btnContinue">Continue</a>
+								</div> <!-- End of upload_tab_cont -->
+							</div>
+						</div>
+				  	</div>
+				  	<div id="doc_info" class="tab-pane fade">
+				    	<div class="container">
+				    		<div class="row">
+				    			<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 doctor_info_cont">
+				    				<p>Dr. Janet Alexander Castelino has done her MBBS from Kasturba Medical College,  Mangalore and her MD Dermatology from Manipal Hospital, Bangalore. She is a consultant Dermatologist with experience in Clinical dermatology, Cosmetic dermatology  <a href="">read more...</a></p>
+				    				<ul class="list-inline">
+				    					<li>
+				    						<img src="images/hospital1.png" alt="hospital_image" class="img-responsive">
+				    					</li>
+				    					<li>
+				    						<img src="images/hospital2.png" alt="hospital_image" class="img-responsive">
+				    					</li>
+				    					<li>
+				    						<img src="images/hospital3.png" alt="hospital_image" class="img-responsive">
+				    					</li>
+				    					<li>
+				    						<img src="images/hospital4.png" alt="hospital_image" class="img-responsive">
+				    					</li>
+				    				</ul>
+				    				<hr class="tab_border">
+				    				<h4>SERVICES</h4>
+				    				<ul class="list-inline disease_list">
+				    					<li>
+				    						<div class="disease">
+				    							<p>Dermabrasion</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Acne / Pimples Treatment</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Wart Removal</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Laser Face Hair Removal</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Tattoo Removal</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Botox Injections</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Dental Fillings</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Dermaroller</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Chemical Peel</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Hair Transplant Surgery</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Hair Loss Treatment</p>
+				    						</div>
+				    					</li>
+				    					<li>
+				    						<div class="disease">
+				    							<p>Line and Wrinkle Smoothing</p>
+				    						</div>
+				    					</li>
+				    				</ul>
+				    				<hr class="tab_border">
+				    			</div>
+				    		</div>
+				    		<div class="row">
+				    			<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 doctor_info_cont">
+				    				<h4>LOCATION MAP</h4>
+				    			</div>
+				    			<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1 address_info">
+				    				<p>
+				    					#285/108, 19th Main Road, 1st block, Rajajinagar.<br>Landmark: Opp. Diacon Hospital, Bangalore
+				    				</p>
+				    				<p>
+				    					Contact: 9876543210 <br>Email: dr.rameshshetty@gmail.com <br>Website: www.rshettyclinic.in
+				    				</p>
+				    				<p>
+				    					<a href="">See Directions</a>
+				    				</p>
+				    			</div>
+				    			<div class="col-xs-12 col-sm-12 col-md-5 address_info">
+				    				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3887.501741901471!2d77.54782566427434!3d13.003688917693072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s+%09%09%09%09++++%09%09%09%09%09%23285%2F108%2C+19th+Main+Road%2C+1st+block%2C+Rajajinagar.%3Cbr%3ELandmark%3A+Opp.+Diacon+Hospital%2C+Bangalore!5e0!3m2!1sen!2sin!4v1476856347195" width="70%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				    			</div>
+				    			<div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1 address_info martop">
+				    				<p>
+				    					#285/108, 19th Main Road, 1st block, Rajajinagar.<br>Landmark: Opp. Diacon Hospital, Bangalore
+				    				</p>
+				    				<p>
+				    					Contact: 9876543210 <br>Email: dr.rameshshetty@gmail.com <br>Website: www.rshettyclinic.in
+				    				</p>
+				    				<p>
+				    					<a href="">See Directions</a>
+				    				</p>
+				    			</div>
+				    			<div class="col-xs-12 col-sm-12 col-md-5 address_info martop">
+				    				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3887.501741901471!2d77.54782566427434!3d13.003688917693072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s+%09%09%09%09++++%09%09%09%09%09%23285%2F108%2C+19th+Main+Road%2C+1st+block%2C+Rajajinagar.%3Cbr%3ELandmark%3A+Opp.+Diacon+Hospital%2C+Bangalore!5e0!3m2!1sen!2sin!4v1476856347195" width="70%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+				    			</div>
+				    			<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 doctor_info_cont">
+				    				<hr class="tab_border">
+				    				<h4>FEEDBACK</h4>
+				    			</div>
+				    			<div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-1 feedback_info">
+				    				<textarea name="" id="" placeholder="write your comment"></textarea>
+				    			</div>
+				    		</div>
+				    		<div class="row martop">
+				    			<div class="col-xs-12 col-sm-2 col-md-1 col-md-offset-1 feedback_info">
+				    				<img src="images/feed1.png" alt="">
+				    			</div>
+				    			<div class="col-xs-12 col-sm-10 col-md-9 feedback_info">
+				    				<p>
+				    					<span>Visited For</span> Wart Removal Treatment
+				    				</p>
+				    				<p>
+				    					<a href="">EXCELLENT EXPERIENCE</a>
+				    				</p>
+				    				<p>
+				    					Mr. Ramesh was too down-to-earth in listening the problem and gave a very quick understanding on the root cause of my Hair Loss. The staff there too, are very courteous. Even tho <a href="">more..</a>
+				    				</p>
+				    			</div>
+				    		</div>
+				    		<div class="row martop">
+				    			<div class="col-xs-12 col-sm-2 col-md-1 col-md-offset-1 feedback_info padd_bottom">
+				    				<img src="images/feed2.png" alt="">
+				    			</div>
+				    			<div class="col-xs-12 col-sm-10 col-md-9 feedback_info">
+				    				<p>
+				    					<span>Visited For</span> Tattoo Removal
+				    				</p>
+				    				<p>
+				    					<a href="">EXCELLENT EXPERIENCE</a>
+				    				</p>
+				    				<p>
+				    					Very good.he answered all the queries properly . Very experienced. Would surely recommend. The staff was also very cordial <a href="">more..</a>
+				    				</p>
+				    			</div>
+				    		</div>
+				    	</div>
+				  	</div>
+				</div> <!-- End of tab-content -->
+			</div> <!-- End of upload_details -->
+		</div>
+	</div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-3">
+                <a href="index.html"><img src="images/logo_footer.png" alt="footer-logo"></a>
+             </div>
+             <div class="col-xs-12 col-sm-10 col-md-7">
+                <ul class="list-inline text-center footer_menu">
+                    <li>
+                        <a href="javascript:void(0);">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">FOR DOCTORS</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">CAREERS</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">SITEMAP</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">PRIVACY POLICY</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);">CONTACT US</a>
+                    </li>
+                </ul>
+             </div>
+             <div class="col-xs-12 col-sm-2 col-md-2">
+                <ul class="list-inline social_icon">
+                    <li>
+                        <a href="#"><img src="images/fb.png" alt=""></a>
+                    </li>
+                     <li>
+                        <a href="#"><img src="images/g+.png" alt=""></a>
+                    </li>
+                     <li>
+                        <a href="#"><img src="images/twitter.png" alt=""></a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </div>
+</footer>
+<section id="footer_bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                &copy; 2016 All rights reserved.
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <ul class="list-inline ul_company">
+                    <li><img src="images/indglobal-grey-logo.png" alt=""></li>
+                    <li>Best web design company in bangalore</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Start Login Modal -->
+<div id="LoginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body mymodal_body">
+                <div class="container-fluid modal_cont">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-5 col-md-5">
+                            <img src="images/login_ad.jpg" class="ad_image" alt="">
+                        </div>
+                        <div class="col-xs-12 col-sm-7 col-md-7 cont_details">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <h2 class="text-center">Login to continue to <span>Telederma</span></h2>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 padd">
+                                <label for="ckPatient"><input type="radio" name="user" id="ckPatient" checked="checked">&nbsp;&nbsp;Patient</label>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-8 padd">
+                                <label for="ckDoctor"><input type="radio" name="user" id="ckDoctor">&nbsp;&nbsp;Doctor</label>
+                            </div> 
+                            <div class="patientLogin">
+                                <div class="col-xs-12 col-sm-12 col-md-12 login_martop">
+                                    <label for="">Email id*</label><br>
+                                    <input type="text">
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 login_martop">
+                                    <label for="">Password*</label><br>
+                                    <input type="text">
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 text-center login_martop">
+                                    <a href="#" class="text-center">Forgot Password?</a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                    <button class="btn btnSignin">Sign in</button>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                                    <p>Don't have an account? <a href="">Sign Up</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <button type="button" class="close btnClose" data-dismiss="modal">&times;</button>
+                </div>
+            </div> <!-- End of Modal body content -->
+        </div> <!-- End of Modal content -->
+    </div>  <!-- End of Modal dialog -->
+</div>
+<!-- End Login Modal -->
+<!-- Start scripts here -->
+<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/sticky-effect.js"></script>
+<script src="js/jquery.range.js"></script>
+<script src="js/icheck.js?v=1.0.2"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
